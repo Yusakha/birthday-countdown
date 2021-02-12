@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Sawarabi Mincho";
+}
+
+.container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    font-size: 36px;
+}
+
+.waktu {
+    padding: 10px 0px 19px 0px;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.waktu span {
+    font-size: 20px;
+}
